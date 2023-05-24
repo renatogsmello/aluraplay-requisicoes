@@ -31,7 +31,7 @@
 
     <main class="container">
 
-        <form class="container__formulario">
+        <form class="container__formulario" data-form>
             <h2 class="formulario__titulo">Envie um vídeo!</h3>
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="url">Link embed</label>
@@ -49,14 +49,14 @@
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="imagem">Imagem de perfil</label>
                     <input name="imagem" class="campo__escrita" required placeholder="Insira a url da imagem"
-                        id='imagem' />
+                        id='imagem' data-image />
                 </div>
 
                 <input class="formulario__botao" type="submit" />
         </form>
 
     </main>
-
+<script src="../js/createVideo.js" type="module"></script>
 </body>
 
 </html>
